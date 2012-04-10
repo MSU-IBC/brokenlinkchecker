@@ -1,0 +1,2 @@
+c:\users\rytlewski\documents\visual studio 2010\Projects\BrokenLinkChecker\BrokenLinkChecker\bin\Debug\BrokenLinkChecker.exe
+c:\users\rytlewski\documents\visual studio 2010\Projects\BrokenLinkChecker\BrokenLinkChecker\bin\Debug\Database.dll

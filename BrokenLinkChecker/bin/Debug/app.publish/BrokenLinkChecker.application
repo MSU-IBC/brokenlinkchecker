@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="BrokenLinkChecker.application" version="1.1.0.2" publicKeyToken="f61966ce5af03ab2" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="BrokenLinkChecker" asmv2:product="BrokenLinkChecker" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="file://jupiter/ibc/public/globaledge/brokenlinkchecker/BrokenLinkChecker.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\BrokenLinkChecker_1_1_0_2\BrokenLinkChecker.exe.manifest" size="8242">
+      <assemblyIdentity name="BrokenLinkChecker.exe" version="1.1.0.2" publicKeyToken="f61966ce5af03ab2" language="neutral" processorArchitecture="msil" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3vL5V0tDzt1LPyVOMxfzDHMWgC4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BUSINESS\rytlewski" issuerKeyHash="35b51cbf0844209c85d737d6d260733ec5e2431a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LjExBD65l7uGMxaZLgjMRVFSaL8=</DigestValue></Reference></SignedInfo><SignatureValue>Dl5Jof9acPRZ7fw1Ulg4997poc2gb4KA4+chmAkuV1fPRfgcqFhdFXC92xaF9VPy3yo+Bauo/rcwH3LwKs13Km0Lbektgxz3DU12Jl/6VAe0uNbdQyCDNPlxvEE18Y9B/eoz1KK+ZkiY/tdZgYNQyMFxvn7nQ+Xv55ygs6u0lic=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kwPN+2m11aS+TuZRhWZUYqELDMf+f4kcqO2tWC3z0ggWgtXjeu+6aKsLmQaAxsxTHx0r1/SEQvatcvNkiEIOBqWfUML1OBx5FxlA0luJ41Yw5AzRHTFLuihaD8PVbsDogavY7N6sJA7Af7xVXdU0zS+9KIb/kmaTnSTrNKAmhrM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bf68525145cc082e99163386bb97b93e0431312e" Description="" Url=""><as:assemblyIdentity name="BrokenLinkChecker.application" version="1.1.0.2" publicKeyToken="f61966ce5af03ab2" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BUSINESS\rytlewski</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MpZ6XgMDE+AZRnbcFggkPhsHXpY=</DigestValue></Reference></SignedInfo><SignatureValue>bRkh0BaKjn1ECt/aPd2+6B2M0AaE/qfCTYD+vW2IiDVnlCktABz+RM7Qr0bcgc9JMegemMd+G/MsRs8O+mieWPvD9BPWbbplCwkHadSRgJBTDNTDRfi22a6yU3vK0W6CH4NBS5MHy0IG0MLNRg63dv79pXbPvIWksoOfyG1OKqw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kwPN+2m11aS+TuZRhWZUYqELDMf+f4kcqO2tWC3z0ggWgtXjeu+6aKsLmQaAxsxTHx0r1/SEQvatcvNkiEIOBqWfUML1OBx5FxlA0luJ41Yw5AzRHTFLuihaD8PVbsDogavY7N6sJA7Af7xVXdU0zS+9KIb/kmaTnSTrNKAmhrM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQGo3WkEm4CK1LOMVQbms6EjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAQgBVAFMASQBOAEUAUwBTAFwAcgB5AHQAbABlAHcAcwBrAGkwHhcNMTIwMzEzMTYwNzE0WhcNMTMwMzEzMjIwNzE0WjAvMS0wKwYDVQQDHiQAQgBVAFMASQBOAEUAUwBTAFwAcgB5AHQAbABlAHcAcwBrAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJMDzftptdWkvk7mUYVmVGKhCwzH/n+JHKjtrVgt89IIFoLV43rvumirC5kGgMbMUx8dK9f0hEL2rXLzZIhCDgaln1DC9TgceRcZQNJbieNWMOQM0R0xS7ooWg/D1W7A6IGr2OzerCQOwH+8VV3VNM0vvSiG/5Jmk50k6zSgJoazAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABKqESEST/ZJ2h/Y8JoN4CDD6tUOwy61HWjecjq602AEoaFBUIxEYFYrYbdUW6teCLdUQZQ+ThB7QT+MLjCOg7sbY9VkAok4BWkeeF4D9wJZYfr9jhpo0biZr0n0/cWkMGmeRJnD8EQKwGXQwMaAdlr7cC/3m4gwhPJOplKO1TA0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
