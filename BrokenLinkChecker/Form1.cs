@@ -41,7 +41,6 @@ namespace BrokenLinkChecker
                 default:
                     this.Enabled = true;
                     return;
-                    break;
             }
             Dictionary<int, string> urls = new Dictionary<int, string>();
             while (_db.Reader.Read())
@@ -61,6 +60,10 @@ namespace BrokenLinkChecker
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(i.Value);
                     request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3";
                     request.Method = "GET";
+                    request.Proxy = null;
+                    request.UseDefaultCredentials = true;
+                    CookieContainer cc = new CookieContainer();
+                    request.CookieContainer = cc;
                     using (HttpWebResponse resp = (HttpWebResponse)request.GetResponse())
                     {
                     }
